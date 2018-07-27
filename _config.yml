@@ -37,7 +37,7 @@ markdown: kramdown
 
 cards:
   data: films         # yaml file in _data (without .yml)
-  comments: true
+  comments: false
   group_by:
     name: decade      # field in yaml to group by
     caption: decades  # name of category (ex: industries)
