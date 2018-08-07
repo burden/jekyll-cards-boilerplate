@@ -1,6 +1,16 @@
 [![Build Status](https://travis-ci.org/burden/jekyll-cards-boilerplate.svg?branch=master)](https://travis-ci.org/burden/jekyll-cards-boilerplate)
 # Jekyll Cards Boilerplate
 
+A card theme for Jekyll made awesome using Bulma.
+
+## In the wild
+
+- [Demo](https://jekyll-cards-boilerplate.burden.cc/)
+- [Elixir Companies](https://elixir-companies.com) ([source](https://github.com/doomspork/elixir-companies))
+- [Erlang Companies](https://erlang-companies.org) ([source](https://github.com/starbelly/erlang-companies))
+- [Kotlin Companies](https://kotlin-companies.com) ([source](https://github.com/utensils/kotlin-companies))
+
+
 ## Features
 
 - [Bulma 0.6.2](https://github.com/jgthms/bulma/tree/0.6.2)
@@ -31,7 +41,7 @@ $ jekyll serve
 
 ## Cards
 
-Cards should be saved as a yaml file in the `_data` folder.
+Cards should be saved as a yaml file in the `src/_data` folder (ex: [src/_data/films.yml](https://github.com/burden/jekyll-cards-boilerplate/blob/master/src/_data/films.yml)).
 
 Feel free to add whatever metadata applies to your card. If present, the `description` field will be shown below your metadata.
 ```
@@ -71,10 +81,15 @@ When you use the `group_by` section (currently required), all cards will be grou
 
 If you wish to override the comment configuration on a specific card, you may add a `comments` field to your cards entry (ex: `comments: false`)
 
-## Deploy to Github Pages from Travis
+
+
+## Deploy to Github Pages from Travis CI
+With the help of Travis, pushing to `master` will trigger a deploy to Github Pages automatically.
+
 1. Point Travis to repository
 2. Configure Travis
 3. Generate a [Personal Access Token](https://github.com/settings/tokens) from Github
   - The only scope needed is repo:public_repo
 4. Set `GITHUB_API=<token>` on Travis
   - Make sure `Display value in build log` toggle is set to `Off`!
+5. Update `src/CNAME`
