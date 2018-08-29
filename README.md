@@ -8,6 +8,7 @@ A card theme for Jekyll made awesome using Bulma.
 - [Demo](https://jekyll-cards-boilerplate.burden.cc/)
 - [Elixir Companies](https://elixir-companies.com) ([source](https://github.com/doomspork/elixir-companies))
 - [Erlang Companies](https://erlang-companies.org) ([source](https://github.com/starbelly/erlang-companies))
+- [Julia Companies](https://julia-companies.org) ([source](https://github.com/cursorinsight/julia-companies))
 - [Kotlin Companies](https://kotlin-companies.com) ([source](https://github.com/utensils/kotlin-companies))
 
 
