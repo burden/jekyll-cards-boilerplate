@@ -3,7 +3,7 @@
 
 A card theme for Jekyll made awesome using Bulma.
 
-![jekyll-bulma-cards](https://raw.githubusercontent.com/burden/jekyll-bulma-cards/master/screenshot.png)
+![jekyll-cards-boilerplate](https://raw.githubusercontent.com/burden/jekyll-cards-boilerplate/master/screenshot.png)
 
 ## In the wild
 
