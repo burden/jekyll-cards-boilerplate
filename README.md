@@ -3,9 +3,11 @@
 
 A card theme for Jekyll made awesome using Bulma.
 
+![jekyll-bulma-cards](https://raw.githubusercontent.com/burden/jekyll-bulma-cards/master/screenshot.png)
+
 ## In the wild
 
-- [Demo](https://jekyll-cards-boilerplate.burden.cc/)
+- **[Demo](https://jekyll-cards-boilerplate.burden.cc/)**
 - [Elixir Companies](https://elixir-companies.com) ([source](https://github.com/doomspork/elixir-companies))
 - [Erlang Companies](https://erlang-companies.org) ([source](https://github.com/starbelly/erlang-companies))
 - [Julia Companies](https://julia-companies.org) ([source](https://github.com/cursorinsight/julia-companies))
@@ -14,7 +16,7 @@ A card theme for Jekyll made awesome using Bulma.
 
 ## Features
 
-- [Bulma 0.6.2](https://github.com/jgthms/bulma/tree/0.6.2)
+- [Bulma 0.7.2](https://github.com/jgthms/bulma/tree/0.7.2)
 - [jQuery 3.2.1](https://github.com/jquery/jquery/tree/3.2.1)
 - Dependency management: [bower](https://bower.io)
 - Asset pipeline: [jekyll-assets](https://rubygems.org/gems/jekyll-assets)
@@ -65,14 +67,14 @@ cards:
     fa-icon: folder-open
     fa-style: far     # valid: fas (solid), far (regular), fal (light), fab (brand)
   meta:
-  - name: year        # field in yaml to map
-    caption: year
-    fa-icon: calendar
-    fa-style: far
-  - name: url
-    caption: www
-    fa-icon: globe
-    fa-style: fas
+    - name: year        # field in yaml to map
+      caption: year
+      fa-icon: calendar
+      fa-style: far
+    - name: url
+      caption: www
+      fa-icon: globe
+      fa-style: fas
 
 ```
 

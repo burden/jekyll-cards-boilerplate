@@ -1,9 +1,10 @@
 source "https://rubygems.org"
-ruby "2.5.1"
-gem "jekyll", "~> 3.8.3"
-gem "rake", "~> 12.3.1"
+ruby "2.5.3"
+gem "jekyll", "~> 3.8.5"
 gem "html-proofer", "~> 3.9.1"
 gem "json", "~> 2.1.0"
+gem "nokogiri", ">= 1.8.5"
+gem "rack", ">= 2.0.6"
 
 group :jekyll_plugins do
   gem "jekyll-assets", "~> 3.0.11"
