@@ -16,11 +16,11 @@ A card theme for Jekyll made awesome using Bulma.
 
 ## Features
 
-- [Bulma 0.7.2](https://github.com/jgthms/bulma/tree/0.7.2)
+- [Bulma 0.7.4](https://github.com/jgthms/bulma/tree/0.7.4)
 - [jQuery 3.2.1](https://github.com/jquery/jquery/tree/3.2.1)
 - Dependency management: [bower](https://bower.io)
 - Asset pipeline: [jekyll-assets](https://rubygems.org/gems/jekyll-assets)
-  - [JS uglifier](https://rubygems.org/gems/uglifier/versions/3.2.0)
+  - [JS uglifier](https://rubygems.org/gems/uglifier)
 - HTML compression: [compress.html](http://jch.penibelst.de/)
 - Testing: [html-proofer](https://github.com/gjtorikian/html-proofer)
 - Analytics: [Google Analytics](https://www.google.com/analytics/)
