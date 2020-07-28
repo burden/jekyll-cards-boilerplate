@@ -96,3 +96,15 @@ With the help of Travis, pushing to `master` will trigger a deploy to Github Pag
 4. Set `GITHUB_API=<token>` on Travis
   - Make sure `Display value in build log` toggle is set to `Off`!
 5. Update `src/CNAME`
+
+### Deploy to Netlify  
+
+  [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/burden/jekyll-cards-boilerplate)
+  i
+  #### Wait, what happens when I click that button?
+
+  Good question. Here's what it will do...
+
+  1. Netlify will clone the git repository of this project into your Github account. This action will require your permission from Github, and of course a Netlify account. 
+  2. Netlify will then create a new site for you, and configure it to use your shiny new repo. Right away you'll be able to deploy changes simply by pushing changes to your repo.
+  3. Enjoy your new blog 🎉
